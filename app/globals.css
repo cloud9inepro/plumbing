@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap');
+
+@import "tailwindcss";
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #080B10;
+  color: white;
+}
+
+.heading {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.clip-diagonal {
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+}
+
+.clip-diagonal-reverse {
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 100%);
+}
+
+.clip-diagonal-both {
+  clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100%);
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080B10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #06B6D4;
+  border-radius: 2px;
+}
+
+::selection {
+  background: #06B6D4;
+  color: #080B10;
+}
